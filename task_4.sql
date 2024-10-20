@@ -1,4 +1,4 @@
-SELECT column_name, data_type, is_nullable, column_default, character_maximum_length
-FROM information_schema.columns
-WHERE table_name = 'Books'
-AND table_schema = 'alx_book_store';
+SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_DEFAULT 
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_SCHEMA = 'alx_book_store' 
+AND TABLE_NAME = 'Books';
